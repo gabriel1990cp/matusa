@@ -27,9 +27,8 @@
                                     <ul class="nav navbar-nav">
                                         <li><a href="<?php echo base_url('home');?>">Home</a></li>
                                         <li><a href="<?php echo base_url('sobre');?>">Sobre</a></li>
-                                        <li><a href="service.html">Serviços</a></li>
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="contact.html">Contato</a></li>
+                                        <li><a href="<?php echo base_url('servicos');?>">Serviços</a></li>
+                                        <li><a href="<?php echo base_url('contato');?>">Contato</a></li
                                     </ul>
                                 </div>
                             </div>

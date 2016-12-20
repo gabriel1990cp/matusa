@@ -11,7 +11,7 @@
                 </div><!-- /.social-media -->
             </div><!-- /.col-lg-3 -->
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 w100">
-                <h2>Services</h2>
+                <h2>Serviços</h2>
                 <ul>
                     <li><a href="service.html">Planning</a></li>
                     <li><a href="service.html">consulting</a></li>
@@ -22,25 +22,21 @@
                 </ul>
             </div><!-- /.col-lg-3 -->
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 w100">
-                <h2>Navigation</h2>
+                <h2>Navegar</h2>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">about us</a></li>
-                    <li><a href="service.html">services</a></li>
-                    <li><a href="project.html">projects</a></li>
-                    <li><a href="blog.html">blog</a></li>
-                    <li><a href="#">shop</a></li>
-                    <li><a href="#">pages</a></li>
-                    <li><a href="contact.html">contact us</a></li>
+                    <li><a href="<?php echo base_url('home')?>">Home</a></li>
+                    <li><a href="<?php echo base_url('sobre')?>">Sobre</a></li>
+                    <li><a href="<?php echo base_url('servicos')?>">Serviços</a></li>
+                    <li><a href="<?php echo base_url('contato')?>">Contato</a></li>
                 </ul>
             </div><!-- /.col-lg-3 -->
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 w100">
-                <h2>Contact us</h2>
+                <h2>Contato</h2>
                 <ul>
-                    <li><span>Address</span> : lipsum street info</li>
+                    <li><span>Endereço</span> : lipsum street info</li>
                     <li>second floor building 989</li>
-                    <li class="m-top"><span>Phone :</span><a href="#"> +91 5585 665 333</a></li>
-                    <li><span>Email :</span><a href="#">info@buildplus.com</a></li>
+                    <li class="m-top"><span>Telefone :</span><a href="#"> +11 99821-4695</a></li>
+                    <li><span>Email :</span><a href="#">contato@matusaguinchos.com.br</a></li>
                 </ul>
 
                 <div class="news-letter w100-l relative">
@@ -50,7 +46,7 @@
 
             </div><!-- /.col-lg-3 -->
             <div class="col-sm-12 w100-l">
-                <p>© 2015 Build plus LTD. ALLRIGHT RESERVED</p>
+                <p>© <?= date("Y"); ?> Todos os direitos reservados.</p>
             </div><!-- /.col-sm-12 -->
         </div><!-- /.row -->
     </div><!-- /.container -->
