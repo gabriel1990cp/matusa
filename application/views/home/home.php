@@ -219,54 +219,7 @@
     </div><!-- /.container -->
 </div><!-- /.happy-client-section -->
 
-<div class="blog-post-section w100-l fixed-padding">
-    <div class="container">
-        <div class="row">
-            <h2>Blog post</h2>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 w100">
-                <a href="#" class="white-color w100-l">
-                    <img src="<?php echo site_url('static/images/blog-post1.png')?>" alt="blog-post"/>
-                    <div class="im-box">
-                        <img src="<?php echo site_url('static/images/icons/admin.png')?>" alt="admin" />
-                    </div><!-- /.im-box -->
-                    <div class="detail-box">
-                        <h2>blog heading<span>by : admin</span></h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum...</p>
-                    </div><!-- /.detail-box -->
-                </a><!-- /.white-color -->
-            </div><!-- /.col-lg-4 -->
 
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 w100">
-                <a href="#" class="white-color w100-l">
-                    <img src="<?php echo site_url('static/images/blog-post2.png')?>" alt="blog-post"/>
-                    <div class="im-box">
-                        <img src="<?php echo site_url('static/images/icons/admin.png')?>" alt="admin" />
-                    </div><!-- /.im-box -->
-                    <div class="detail-box">
-                        <h2>blog heading<span>by : admin</span></h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum...</p>
-                    </div><!-- /.detail-box -->
-                </a><!-- /.white-color -->
-            </div><!-- /.col-lg-4 -->
-
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 w100">
-                <a href="#" class="white-color w100-l">
-                    <img src="<?php echo site_url('static/images/blog-post-3.png')?>" alt="blog-post"/>
-                    <div class="im-box">
-                        <img src="<?php echo site_url('static/images/icons/admin.png')?>" alt="admin" />
-                    </div><!-- /.im-box -->
-                    <div class="detail-box">
-                        <h2>blog heading<span>by : admin</span></h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum...</p>
-                    </div><!-- /.detail-box -->
-                </a><!-- /.white-color -->
-            </div><!-- /.col-lg-4 -->
-            <div class="text-center">
-                <input type="button" value="full post" onclick="window.location.href='blog.html'" />
-            </div><!--/.text-center -->
-        </div><!-- /.row -->
-    </div><!-- /.container -->
-</div><!-- /.blog-post-section -->
 <div class="featured-project w100-l fixed-padding">
     <div class="container">
         <div class="row">

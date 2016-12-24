@@ -25,69 +25,6 @@
     </div>
 </div>
 
-<div class="our-partners-section w100-l fixed-padding">
-    <div class="container">
-        <div class="row">
-            <h2>Our Partners</h2>
-            <div class="col-sm-12 m-top">
-                <div class="owl-outer">
-                    <div id="owl-example" class="owl-carousel owl-theme">
-                        <div class="item">
-                            <img src="<?php echo site_url('static/images/icons/part1.png') ?>" alt="partners"/>
-                        </div>
-                        <div class="item">
-                            <img src="<?php echo site_url('static/images/icons/part2.png') ?>" alt="partners"/>
-                        </div>
-                        <div class="item">
-                            <img src="<?php echo site_url('static/images/icons/part3.png') ?>" alt="partners"/>
-                        </div>
-                        <div class="item">
-                            <img src="<?php echo site_url('static/images/icons/part4.png') ?>" alt="partners"/>
-                        </div>
-                        <div class="item">
-                            <img src="<?php echo site_url('static/images/icons/part5.png') ?>" alt="partners"/>
-                        </div>
-                        <div class="item">
-                            <img src="<?php echo site_url('static/images/icons/part6.png') ?>" alt="partners"/>
-                        </div>
-                        <div class="item">
-                            <img src="<?php echo site_url('static/images/icons/part1.png') ?>" alt="partners"/>
-                        </div>
-                        <div class="item">
-                            <img src="<?php echo site_url('static/images/icons/part2.png') ?>" alt="partners"/>
-                        </div>
-                        <div class="item">
-                            <img src="<?php echo site_url('static/images/icons/part3.png') ?>" alt="partners"/>
-                        </div>
-                        <div class="item">
-                            <img src="<?php echo site_url('static/images/icons/part4.png') ?>" alt="partners"/>
-                        </div>
-                        <div class="item">
-                            <img src="<?php echo site_url('static/images/icons/part5.png') ?>" alt="partners"/>
-                        </div>
-                        <div class="item">
-                            <img src="<?php echo site_url('static/images/icons/part6.png') ?>" alt="partners"/>
-                        </div><!-- /.slider -->
-                        <div class="item">
-                            <img src="<?php echo site_url('static/images/icons/part1.png') ?>" alt="partners"/>
-                        </div><!-- /.slider -->
-                        <div class="item">
-                            <img src="<?php echo site_url('static/images/icons/part2.png') ?>" alt="partners"/>
-                        </div><!-- /.slider -->
-                        <div class="item">
-                            <img src="<?php echo site_url('static/images/icons/part3.png') ?>" alt="partners"/>
-                        </div><!-- /.slider -->
-                        <div class="item">
-                            <img src="<?php echo site_url('static/images/icons/part4.png') ?>" alt="partners"/>
-                        </div><!-- /.slider -->
-
-                    </div><!-- /.owl-carousel owl-theme -->
-                </div><!-- /.owl-outer -->
-            </div><!-- /.col-sm-12 -->
-        </div><!-- /.row -->
-    </div><!-- /.container -->
-</div><!-- /.our-partners-section -->
-
 <div class="happy-client-section w100-l fixed-padding">
     <div class="container">
         <div class="row">
