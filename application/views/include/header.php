@@ -9,7 +9,7 @@
                 </div>
                 <div class="w100-l">
                     <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 logo">
-                        <a href="#"><img src="<?php echo site_url('static/images/logo.png')?>" alt="logo" /></a>
+                        <a href="<?php echo base_url('home');?>"><img src="<?php echo site_url('static/images/logo.png')?>" alt="logo" /></a>
                     </div>
                     <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 navigation both-side">
                         <nav class="navbar navbar-default">
@@ -28,7 +28,7 @@
                                         <li><a href="<?php echo base_url('home');?>">Home</a></li>
                                         <li><a href="<?php echo base_url('sobre');?>">Sobre</a></li>
                                         <li><a href="<?php echo base_url('servicos');?>">Serviços</a></li>
-                                        <li><a href="<?php echo base_url('contato');?>">Contato</a></li
+                                        <li><a href="<?php echo base_url('contato');?>">Contato</a></li>
                                     </ul>
                                 </div>
                             </div>

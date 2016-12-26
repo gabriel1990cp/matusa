@@ -20,5 +20,10 @@
     <link href="<?php echo site_url('static/css/style.css" rel="stylesheet')?>" />
     <!-- CSS FIM -->
 
+    <!-- JS -->
+    <script src="<?php echo site_url('static/js/jquery.js');?>"> </script>
+    <!-- JS FIM -->
+
     <title>Matusa Guinchos</title>
+
 </head>
