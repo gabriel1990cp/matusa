@@ -14,8 +14,8 @@
         <div class="container">
             <h1>we are the leads in<span>construction industry</span></h1>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
-            <input type="button" class="green" value="our projects" onclick="window.location.href='project.html'" />
-            <input type="button" class="blue" value="contact us" onclick="window.location.href='contact.html'"/>
+            <input type="button" class="green" value="Guinchos" onclick="window.location.href='project.html'" />
+            <input type="button" class="blue" value="Realizar Contato" onclick="window.location.href='<?php echo base_url('contato')?>'"/>
         </div>
     </div>
 </div>
@@ -64,7 +64,7 @@
                 </a>
             </div>
             <div class="text-center">
-                <input type="button" value="Todos serviços" onclick="window.location.href='service.html'"/>
+                <input type="button" value="Todos serviços" onclick="window.location.href='<?php echo base_url('servicos'); ?>'"/>
             </div>
         </div>
     </div>
@@ -236,7 +236,7 @@
     <div class="container">
         <div class="row">
             <h2>Contato</h2>
-            <p>Lorem Ipsum is simply dummy text printing</p>
+            <p>Fale Conosco. Teremos prazer em atendê-lo.</p>
             <input type="button" value="Realizar Contato" onclick="window.location.href='contact.html'" />
         </div>
     </div>

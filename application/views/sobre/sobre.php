@@ -2,7 +2,7 @@
     <img src="<?php echo site_url('static/images/about-banner.png') ?>" alt="about-banner"/>
     <div class="center-qoute w100-l">
         <div class="container">
-            <h1>about us</h1>
+            <h1>Sobre nós</h1>
         </div>
     </div>
 </div>
@@ -174,7 +174,7 @@
         <div class="row">
             <h2>Contato</h2>
             <p>Lorem Ipsum is simply dummy text printing</p>
-            <input type="button" value="Realizar contato" onclick="window.location.href='contact.html'"/>
+            <input type="button" value="Realizar contato" onclick="window.location.href='<?php base_url('contato')?>'"/>
         </div>
     </div>
 </div>

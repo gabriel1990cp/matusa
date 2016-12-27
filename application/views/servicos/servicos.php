@@ -2,7 +2,7 @@
     <img src="<?php echo site_url('static/images/about-banner.png')?>" alt="about-banner"/>
     <div class="center-qoute w100-l">
         <div class="container">
-            <h1>services</h1>
+            <h1>Serviços</h1>
         </div>
     </div>
 </div>
@@ -10,7 +10,7 @@
 <div class="our-service-page w100-l fixed-padding">
     <div class="container">
         <div class="row">
-            <h2>our services</h2>
+            <h2>Nossos Serviços</h2>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 w100">
                 <a href="service-details.html" class="service-box w100-l">
                     <div class="img-b w100-l">
@@ -51,52 +51,8 @@
                     <p>Lorem Ipsum is simply dummy text of the printin and typesetting dustry..</p>
                 </a>
             </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 w100">
-                <a href="service-details.html" class="service-box w100-l">
-                    <div class="img-b w100-l">
-                        <img src="<?php echo site_url('static/images/icons/hm-ser-5.png')?>" class="first" alt="service"/>
-                        <img src="<?php echo site_url('static/images/icons/hm-ser-5-h.png')?>" class="second" alt="service"/>
-                    </div>
-                    <h3>Consulting</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printin and typesetting dustry..</p>
-                </a>
-            </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 w100">
-                <a href="service-details.html" class="service-box w100-l">
-                    <div class="img-b w100-l">
-                        <img src="<?php echo site_url('static/images/icons/hm-ser-6.png')?>" class="first" alt="service"/>
-                        <img src="<?php echo site_url('static/images/icons/hm-ser-6-h.png')?>" class="second" alt="service"/>
-                    </div>
-                    <h3>Warehousing</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printin and typesetting dustry..</p>
-                </a>
-            </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 w100">
-                <a href="service-details.html" class="service-box w100-l">
-                    <div class="img-b w100-l">
-                        <img src="<?php echo site_url('static/images/icons/hm-ser-7.png')?>" class="first" alt="service"/>
-                        <img src="<?php echo site_url('static/images/icons/hm-ser-7-h.png')?>" class="second" alt="service"/>
-                    </div>
-                    <h3>Contract logistics</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printin and typesetting dustry..</p>
-                </a>
-            </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 w100">
-                <a href="service-details.html" class="service-box w100-l">
-                    <div class="img-b w100-l">
-                        <img src="<?php echo site_url('static/images/icons/hm-ser-8.png')?>" class="first" alt="service"/>
-                        <img src="<?php echo site_url('static/images/images/icons/hm-ser-8-h.png')?>" class="second" alt="service"/>
-                    </div>
-                    <h3>Overland</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printin and typesetting dustry..</p>
-                </a>
-            </div>
             <div class="text-center">
-                <input type="button" value="contact now" onclick="window.location.href='contact.html'"/>
+                <input type="button" value="Realizar Contato" onclick="window.location.href='<?php echo base_url('contato')?>'"/>
             </div>
         </div>
     </div>

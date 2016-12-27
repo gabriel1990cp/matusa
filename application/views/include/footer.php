@@ -54,7 +54,7 @@
 </div><!-- /.structure-updated-main -->
 
 <!-- JAVA SCRIPT -->
-<script src="<?php echo site_url('static/js/jquery1.11.3.min.js')?>"></script>
+<script src="<?php echo site_url('static/js/jquery.js');?>"> </script>
 <script src="<?php echo site_url('static/js/modernizr.js')?>"></script>
 <script src="<?php echo site_url('static/js/bootstrap.js')?>"></script>
 <script src="<?php echo site_url('static/js/owl.carousel.js')?>"></script>
@@ -62,8 +62,6 @@
 <script src="<?php echo site_url('static/js/data-counter.js')?>"></script>
 <script src="<?php echo site_url('static/js/custom.js')?>"></script>
 <!-- JAVA SCRIPT FIM-->
-
-
 
 </body>
 </html>
