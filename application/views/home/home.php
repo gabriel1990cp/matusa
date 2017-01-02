@@ -14,7 +14,6 @@
         <div class="container">
             <h1>we are the leads in<span>construction industry</span></h1>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
-            <input type="button" class="green" value="Guinchos" onclick="window.location.href='project.html'" />
             <input type="button" class="blue" value="Realizar Contato" onclick="window.location.href='<?php echo base_url('contato')?>'"/>
         </div>
     </div>

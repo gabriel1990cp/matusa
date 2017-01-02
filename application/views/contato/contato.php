@@ -2,7 +2,7 @@
     <img src="<?php echo site_url('static/images/about-banner.png') ?>" alt="about-banner"/>
     <div class="center-qoute w100-l">
         <div class="container">
-            <h1>contact us</h1>
+            <h1>Contato</h1>
         </div>
     </div>
 </div>
@@ -10,33 +10,21 @@
 <div class="contact-us w100-l fixed-padding">
     <div class="container">
         <div class="row">
-            <h2>contact us</h2>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 w100">
+            <h2>Contato</h2>
+            <div class="col-lg-6 col-md-4 col-sm-4 col-xs-6 w100">
                 <span class="icon-location-pin"></span>
-                <h3>Address</h3>
+                <h3>Endereço</h3>
                 <p>Lorem ipsum dolor sit amet</p>
                 <p>JD nager 9th Floor</p>
                 <p>Build plus</p>
             </div>
 
-            <div class="col-lg-4 col-md-3 col-sm-4 col-xs-6 w100">
+            <div class="col-lg-6 col-md-3 col-sm-4 col-xs-6 w100">
                 <span class="icon-bubbles"></span>
-                <h3>Contact</h3>
+                <h3>Contato</h3>
                 <p>+ 878 8555 6856</p>
                 <p>+ (0) 5548 656 447</p>
                 <p><a href="#">info@buildplus.com</a></p>
-            </div>
-
-            <div class="col-lg-4 col-md-5 col-sm-4 col-xs-12 w100">
-                <span class="icon-share"></span>
-                <h3>follow us</h3>
-                <div class="social-net w100-l">
-                    <a href="#"><i class="fa fa-pinterest-p"></i></a>
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                </div>
             </div>
         </div>
     </div>
