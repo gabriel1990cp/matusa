@@ -22,26 +22,29 @@
     <div class="container">
         <div class="row">
             <h2>Serviços</h2>
+
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 w100">
                 <a href="service.html" class="service-box w100-l">
                     <div class="img-b w100-l">
-                        <img src="<?php echo site_url('static/images/icons/hm-ser-1.png')?>" class="first" alt="service" />
-                        <img src="<?php echo site_url('static/images/icons/hm-ser-1-h.png')?>" class="second" alt="service" />
+                        <img src="<?php echo site_url('static/images/icons_servicos/atendimento_24h_pb.png')?>" class="first" alt="service" />
+                        <img src="<?php echo site_url('static/images/icons_servicos/atendimento_24h.png')?>" class="second" alt="service" />
                     </div>
-                    <h3>ocean cargo</h3>
+                    <h3>Atendimento 7 dias da semana</h3>
+                    <p>Trabalhamos de finais de semana e inclusive aos feriados.</p>
+                </a>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 w100">
+                <a href="service.html" class="service-box w100-l">
+                    <div class="img-b w100-l">
+                        <img src="<?php echo site_url('static/images/icons_servicos/agilidade_pb.png')?>" class="first" alt="service" />
+                        <img src="<?php echo site_url('static/images/icons_servicos/agilidade.png')?>" class="second" alt="service" />
+                    </div>
+                    <h3>Atendimento 24h</h3>
                     <p>Lorem Ipsum is simply dummy text of the printin and typesetting dustry..</p>
                 </a>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 w100">
-                <a href="service.html" class="service-box w100-l">
-                    <div class="img-b w100-l">
-                        <img src="<?php echo site_url('static/images/icons/hm-ser-2.png')?>" class="first" alt="service" />
-                        <img src="<?php echo site_url('static/images/icons/hm-ser-2-h.png')?>" class="second" alt="service" />
-                    </div>
-                    <h3>REtEFER CARGO</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printin and typesetting  dustry..</p>
-                </a>
-            </div>
+
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 w100">
                 <a href="service.html" class="service-box w100-l">
                     <div class="img-b w100-l">
@@ -52,6 +55,8 @@
                     <p>Lorem Ipsum is simply dummy text of the printin and typesetting  dustry..</p>
                 </a>
             </div>
+
+
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 w100">
                 <a href="service.html" class="service-box w100-l">
                     <div class="img-b w100-l">
@@ -62,9 +67,12 @@
                     <p>Lorem Ipsum is simply dummy text of the printin and typesetting dustry..</p>
                 </a>
             </div>
+
+
             <div class="text-center">
                 <input type="button" value="Todos serviços" onclick="window.location.href='<?php echo base_url('servicos'); ?>'"/>
             </div>
+
         </div>
     </div>
 </div>
@@ -111,100 +119,7 @@
     </div>
 </div>
 
-<div class="happy-client-section w100-l fixed-padding">
-    <div class="container">
-        <div class="row">
-            <h2>Depoimentos</h2>
-            <div class="col-sm-12 m-top">
-                <div class="owl-outer">
-                    <div id="owl-demo" class="owl-carousel owl-theme">
-                        <div class="item">
-                            <div class="happy-image">
-                                <img src="<?php echo site_url('static/images/happy-client1.jpg')?>" alt="happy-client" />
-                            </div>
-                            <div class="happy-contents">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p>
-                                <h2>Client name<span>Designation</span></h2>
-                                <div class="stars w100-l">
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="happy-image">
-                                <img src="<?php echo site_url('static/images/happy-client2.jpg')?>" alt="happy-client" />
-                            </div>
-                            <div class="happy-contents">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p>
-                                <h2>Client name<span>Designation</span></h2>
-                                <div class="stars w100-l">
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="happy-image">
-                                <img src="<?php echo site_url('static/images/happy-client1.jpg')?>" alt="happy-client" />
-                            </div>
-                            <div class="happy-contents">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p>
-                                <h2>Client name<span>Designation</span></h2>
-                                <div class="stars w100-l">
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="happy-image">
-                                <img src="<?php echo site_url('static/images/happy-client2.jpg')?>" alt="happy-client" />
-                            </div>
-                            <div class="happy-contents">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p>
-                                <h2>Client name<span>Designation</span></h2>
-                                <div class="stars w100-l">
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="happy-image">
-                                <img src="<?php echo site_url('static/images/happy-client1.jpg')?>" alt="happy-client" />
-                            </div>
-                            <div class="happy-contents">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p>
-                                <h2>Client name<span>Designation</span></h2>
-                                <div class="stars w100-l">
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="featured-project w100-l fixed-padding">
+<div class="featured-project w100-l fixed-padding">     
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-5 col-sm-6 col-xs-9 w100">

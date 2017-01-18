@@ -24,10 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-$dominio= $_SERVER['HTTP_HOST'];
-$url = "http://" . $dominio. $_SERVER['REQUEST_URI'];
-
-$config['base_url'] = $url;
+$config['base_url'] = 'http://www.matusaguinchos.kinghost.net';
 
 /*
 |--------------------------------------------------------------------------
