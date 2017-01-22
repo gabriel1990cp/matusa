@@ -28,7 +28,7 @@
 <div class="happy-client-section w100-l fixed-padding">
     <div class="container">
         <div class="row">
-            <h2>Happy clients</h2>
+            <h2>Nossos clientes</h2>
             <div class="col-sm-12 m-top">
 
                 <div class="owl-outer">
@@ -53,65 +53,6 @@
                             </div>
                         </div>
 
-                        <div class="item">
-                            <div class="happy-image">
-                                <img src="<?php echo site_url('static/images/happy-client2.jpg') ?>"
-                                     alt="happy-client"/>
-                            </div>
-                            <div class="happy-contents">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown.</p>
-                                <h2>Client name<span>Designation</span></h2>
-                                <div class="stars w100-l">
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="happy-image">
-                                <img src="<?php echo site_url('static/images/happy-client1.jpg') ?>"
-                                     alt="happy-client"/>
-                            </div>
-                            <div class="happy-contents">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown.</p>
-                                <h2>Client name<span>Designation</span></h2>
-                                <div class="stars w100-l">
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="happy-image">
-                                <img src="<?php echo site_url('static/images/happy-client2.jpg') ?>"
-                                     alt="happy-client"/>
-                            </div>
-                            <div class="happy-contents">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown.</p>
-                                <h2>Client name<span>Designation</span></h2>
-                                <div class="stars w100-l">
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                </div>
-                            </div>
-                        </div>
 
                         <div class="item">
                             <div class="happy-image">
@@ -173,8 +114,8 @@
     <div class="container">
         <div class="row">
             <h2>Contato</h2>
-            <p>Lorem Ipsum is simply dummy text printing</p>
-            <input type="button" value="Realizar contato" onclick="window.location.href='<?php base_url('contato')?>'"/>
+            <p>Fale Conosco. Teremos prazer em atendê-lo.</p>
+            <input type="button" value="Realizar Contato" onclick="window.location.href='contact.html'" />
         </div>
     </div>
 </div>

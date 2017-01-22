@@ -4,17 +4,7 @@
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 w100 footer-logo">
                 <a href="#"><img src="<?php echo site_url('static/images/icons/footer-logo-main.png')?>" alt="logo"/></a>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 w100">
-                <h2>Serviços</h2>
-                <ul>
-                    <li><a href="service.html">Planning</a></li>
-                    <li><a href="service.html">consulting</a></li>
-                    <li><a href="service.html">construction</a></li>
-                    <li><a href="service.html">interior</a></li>
-                    <li><a href="service.html">painting</a></li>
-                    <li><a href="service.html">cleaning</a></li>
-                </ul>
-            </div>
+
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 w100">
                 <h2>Navegar</h2>
                 <ul>
@@ -24,17 +14,16 @@
                     <li><a href="<?php echo base_url('contato')?>">Contato</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 w100">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 w100 contato-footer">
                 <h2>Contato</h2>
                 <ul>
-                    <li><span>Endereço</span> : lipsum street info</li>
-                    <li>second floor building 989</li>
+                    <li><span>Endereço</span> : Alameda dos Carvalhos, 110</li>
+                    <li>Quinta dos Carvalhos – Mairiporã – SP</li>
                     <li class="m-top"><span>Telefone :</span><a href="#"> +11 99821-4695</a></li>
                     <li><span>Email :</span><a href="#"><span class="email-contato">contato@matusaguinchos.com.br</span></a></li>
                 </ul>
-
-
             </div>
+
             <div class="col-sm-12 w100-l">
                 <p>© <?= date("Y"); ?> Todos os direitos reservados.</p>
             </div>

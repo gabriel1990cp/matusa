@@ -14,17 +14,18 @@
             <div class="col-lg-6 col-md-4 col-sm-4 col-xs-6 w100">
                 <span class="icon-location-pin"></span>
                 <h3>Endereço</h3>
-                <p>Lorem ipsum dolor sit amet</p>
-                <p>JD nager 9th Floor</p>
-                <p>Build plus</p>
+                <p>Alameda dos Carvalhos, 110</p>
+                <p>Quinta dos Carvalhos – Mairiporã – SP</p>
+                <p>São Paulo</p>
             </div>
 
             <div class="col-lg-6 col-md-3 col-sm-4 col-xs-6 w100">
                 <span class="icon-bubbles"></span>
                 <h3>Contato</h3>
-                <p>+ 878 8555 6856</p>
-                <p>+ (0) 5548 656 447</p>
-                <p><a href="#">info@buildplus.com</a></p>
+                <p>Tel. 011 4419-2890 / 011 4419-2868</p>
+                <p>Cel. 011 99821-4695 / 011 7891-8155</p>
+                <p>Nextel 55*9*8827</p>
+                <p><a href="#">contato@matusaguinchos.com.br</a></p>
             </div>
         </div>
     </div>

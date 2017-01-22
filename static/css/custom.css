@@ -648,6 +648,7 @@ footer p {
 	padding:30px 30px 60px 30px;
 	margin-top:30px;
 	transition-duration:1s;
+	min-height: 350px;
 }
 .img-b {
 	height:60px;
@@ -2037,7 +2038,7 @@ border-bottom: 1px solid #c1c1c1 !important;
 	} /* End query */
 	
 @media (max-width:380px){
-.top-section a { font-size:11px; }
+.top-section a { font-size:8px; }
 .top-section a span { margin-right:7px; }
 .happy-client-section .bx-viewport { height:485px !important; }	
 .error-box h3 { font-size: 62px; padding-top: 37%;}

@@ -2,3 +2,12 @@
 {
     font-size: 10px;
 }
+
+
+/*RESPONSIVO*/
+
+@media (min-width: 1200px){
+    .contato-footer {
+        width: 30%;
+    }
+}
