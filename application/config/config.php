@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-$config['base_url'] = 'http://www.matusaguinchos.kinghost.net/';
+$config['base_url'] = 'http://www.mathusaguinchos.com.br/';
 
 /*
 |--------------------------------------------------------------------------

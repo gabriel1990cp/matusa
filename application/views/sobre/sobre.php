@@ -11,102 +11,34 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 about less-left">
-                <img src="<?php echo site_url('static/images/in-ab.png') ?>" alt="about"/>
+                <img src="<?php echo site_url('static/images/sobre.png') ?>" alt="about"/>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 about">
-                <h2>what we are</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                    leap into electronic typesetting, remaining essentially unchanged. It was popularised.</p>
-                <input type="button" value="Read more"/>
+            <div class="col-lg-5 col-md-6 col-sm-12 for-this">
+                <p>Já são mais de 15 anos de experiência, comecei na empresa de um amigo Auto Socorro Tida, desde então despertei interesse na área e comprei o meu primeiro caminhão, hoje a minha empresa possui um equipamento capaz de atender a necessidade de carros leves, utilitários, carretas, caminhões e ônibus.</p>
+                <br/>
+                <h3>Nosso diferencial</h3>
+
+                <ul>
+                    <li>Rapidez;</li>
+                    <li>Profissionalismo;</li>
+                    <li>Dedicação;</li>
+                    <li>Agilidade;</li>
+                    <li>Atendimento personalizado 24 horas;</li>
+                    <li>Segurança</li>
+                </ul>
             </div>
         </div>
     </div>
 </div>
 
-<div class="happy-client-section w100-l fixed-padding">
-    <div class="container">
-        <div class="row">
-            <h2>Nossos clientes</h2>
-            <div class="col-sm-12 m-top">
-
-                <div class="owl-outer">
-                    <div id="owl-demo" class="owl-carousel owl-theme">
-                        <div class="item">
-                            <div class="happy-image">
-                                <img src="<?php echo site_url('static/images/happy-client1.jpg') ?>"
-                                     alt="happy-client"/>
-                            </div><!-- /.happy-image -->
-                            <div class="happy-contents">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown.</p>
-                                <h2>Client name<span>Designation</span></h2>
-                                <div class="stars w100-l">
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="item">
-                            <div class="happy-image">
-                                <img src="<?php echo site_url('static/images/happy-client1.jpg') ?>"
-                                     alt="happy-client"/>
-                            </div>
-                            <div class="happy-contents">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown.</p>
-                                <h2>Client name<span>Designation</span></h2>
-                                <div class="stars w100-l">
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="espaco-entre-div">
+    &nbsp;
 </div>
 
 <div class="featured-project w100-l fixed-padding">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-5 col-sm-6 col-xs-9 w100">
-                <div class="feature-box w100-l">
-                    <ul class="feature-slider">
-                        <li>
-                            <h3>Featured Project <span>1</span></h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been standard.</p>
-                            <input type="button" value="full projects" onclick="window.location.href='project.html'"/>
-                        </li>
-                        <li>
-                            <h3>Featured Project <span>2</span></h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been standard.</p>
-                            <input type="button" value="full projects" onclick="window.location.href='project.html'"/>
-                        </li>
-                        <li>
-                            <h3>Featured Project <span>3</span></h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been standard.</p>
-                            <input type="button" value="full projects" onclick="window.location.href='project.html'"/>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+
         </div>
     </div>
 </div>
@@ -115,7 +47,7 @@
         <div class="row">
             <h2>Contato</h2>
             <p>Fale Conosco. Teremos prazer em atendê-lo.</p>
-            <input type="button" value="Realizar Contato" onclick="window.location.href='contact.html'" />
+            <input type="button" value="Realizar Contato" onclick="window.location.href='<?php echo base_url('contato'); ?>'"/>
         </div>
     </div>
 </div>

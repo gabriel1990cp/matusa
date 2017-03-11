@@ -3,6 +3,40 @@
     font-size: 10px;
 }
 
+.espaco-entre-div
+{
+    margin-top: 20px;
+}
+
+.img-sobre
+{
+    max-width: 100%;
+}
+
+.ajuste-box-sobre
+{
+    height: 400px;
+}
+
+.featured-project
+{
+    height: 480px;
+}
+
+
+.for-this ul li
+{
+    margin-left: 13px;
+    list-style-type: square;
+}
+
+
+.about img
+{
+    margin-top: 13.5%;
+}
+
+
 
 /*RESPONSIVO*/
 
@@ -10,4 +44,10 @@
     .contato-footer {
         width: 30%;
     }
+
+    .navegar-footer{
+        width: 29%;
+        margin-left: 16%;
+    }
+
 }
