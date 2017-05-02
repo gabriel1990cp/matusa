@@ -33,7 +33,7 @@
 
 <div class="message-us w100-l fixed-padding">
     <div class="container">
-        <form enctype="multipart/form-data" id="form_contato" name="form_contato">
+        <form action="<?php echo base_url('contato/insert') ?>" method="POST" enctype="multipart/form-data" id="formulario_contato">
             <div class="row">
                 <h2>Mensagem</h2>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 w100">
@@ -47,18 +47,24 @@
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 w100">
                     <select id="assunto" name="Assunto">
-                        <option value="">services*</option>
-                        <option value="airplane">airplane</option>
-                        <option value="ocation cargo">ocation cargo</option>
+                        <option value="selecione">Assunto ></option>
+                        <option value="Veículos de passeio">Veículos de passeio</option>
+                        <option value="Serviços de munck">Serviços de munck</option>
+                        <option value="Caminhões pesados e extra pesados">Caminhões pesados e extra pesados</option>
                     </select>
                 </div>
                 <div class="col-sm-12 col-xs-12">
                     <textarea placeholder="Mensagem*" id="mensagem" name="mensagem"></textarea>
                 </div>
                 <div id="ferror"></div>
-                <div class="success"></div>
+                <div class="success" style="display: none">
+                    <p>Mensagem enviada com sucesso!</p>
+                </div>
+                <div class="erro_mensagem" style="display: none">
+                    <p>Mensagem não enviada, tente novamente.</p>
+                </div>
                 <div class="text-center">
-                    <input type="button" onclick="sendContact();" value="Enviar">
+                    <input type="button" value="Enviar" id="submit_form">
                 </div>
             </div>
         </form>
@@ -66,5 +72,6 @@
 </div>
 
 <div class="map-section w100-l">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14020.40678696969!2d77.06516027403846!3d28.53666281928909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1bcf2fc619c5%3A0x4de8c714a5dc27ea!2sPushpanjali+Farms%2C+New+Delhi%2C+Delhi!5e0!3m2!1sen!2sin!4v1453367049850" width="" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d2590.7769784374927!2d-46.576418512517556!3d-23.31895360658275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x94ceeddf81f0d4c3%3A0x3f4e980d1c0fa474!2sMairipor%C3%A3+-+SP!3m2!1d-23.319504499999997!2d-46.5902794!4m0!5e0!3m2!1spt-BR!2sbr!4v1492313900628" width="" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
+

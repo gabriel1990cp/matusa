@@ -26,6 +26,7 @@
                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                     <ul class="nav navbar-nav">
                                         <li><a href="<?php echo base_url('home');?>">Home</a></li>
+                                        <li><a href="<?php echo base_url('equipamento');?>">Equipamento</a></li>
                                         <li><a href="<?php echo base_url('sobre');?>">Sobre</a></li>
                                         <li><a href="<?php echo base_url('servicos');?>">Serviços</a></li>
                                         <li><a href="<?php echo base_url('contato');?>">Contato</a></li>

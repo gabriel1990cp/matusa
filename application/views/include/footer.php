@@ -9,6 +9,7 @@
                 <h2>Navegar</h2>
                 <ul>
                     <li><a href="<?php echo base_url('home')?>">Home</a></li>
+                    <li><a href="<?php echo base_url('equipamento')?>">Equipamento</a></li>
                     <li><a href="<?php echo base_url('sobre')?>">Sobre</a></li>
                     <li><a href="<?php echo base_url('servicos')?>">Serviços</a></li>
                     <li><a href="<?php echo base_url('contato')?>">Contato</a></li>
@@ -31,16 +32,6 @@
     </div>
 </footer>
 </div>
-
-<!-- JAVA SCRIPT -->
-<script src="<?php echo site_url('static/js/jquery.js');?>"> </script>
-<script src="<?php echo site_url('static/js/modernizr.js')?>"></script>
-<script src="<?php echo site_url('static/js/bootstrap.js')?>"></script>
-<script src="<?php echo site_url('static/js/owl.carousel.js')?>"></script>
-<script src="<?php echo site_url('static/js/jquery.bxslider.js')?>"></script>
-<script src="<?php echo site_url('static/js/data-counter.js')?>"></script>
-<script src="<?php echo site_url('static/js/custom.js')?>"></script>
-<!-- JAVA SCRIPT FIM-->
 
 </body>
 </html>

@@ -74,22 +74,12 @@
     </div>
     <div class="col-lg-5 col-md-6 col-sm-12 for-this">
         <h2>Sobre nós</h2>
-        <p>Já são mais de 15 anos de experiência, comecei na empresa de um amigo Auto Socorro Tida, desde então despertei interesse na área e comprei o meu primeiro caminhão, hoje a minha empresa possui um equipamento capaz de atender a necessidade de carros leves, utilitários, carretas, caminhões e ônibus.</p>
+        <p>Já são mais de 15 anos de experiência, comecei na empresa de um amigo Auto Socorro Tida, desde então despertei interesse na área e comprei o meu primeiro caminhão, hoje a minha empresa possui uma estrutura capaz de atender a necessidade de todos tipos de veículos de grande e pequeno porte (carros leves, utilitários, carretas, caminhões e ônibus).</p>
         <input type="button" value="Leia Mais " onclick="window.location.href='<?php echo base_url('sobre')?>'"/>
     </div>
 </div>
 
-<div class="espaco-entre-div">
-    &nbsp;
-</div>
 
-<div class="featured-project w100-l fixed-padding">
-    <div class="container">
-        <div class="row">
-
-        </div>
-    </div>
-</div>
 <div class="contact-us-simple w100-l fixed-padding">
     <div class="container">
         <div class="row">
