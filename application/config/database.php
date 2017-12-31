@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'mysql.matusaguinchos.kinghost.net',
-	'username' => 'matusaguinchos',
-	'password' => 'x6ICsXW3fFkO',
-	'database' => 'matusaguinchos',
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'mathusaguinchos',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
